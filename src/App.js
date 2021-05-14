@@ -109,14 +109,14 @@ function App() {
     <div className="main-container">
       <Router>
 
-        <Route exact path="/login" render={renderLoginPage} />
-        <Route exact path="/signup" component={SignupPage} />
-        <Route exact path="/home" render={renderHomePage} />
-        <Route exact path="/" component={SplashPage} />
-        <Route exact path="/aboutus" component={AboutUsPage} />
-        <Route exact path="/profile" component={renderProfilePage} />
-        <Route exact path="/addactivity" component={AddActivityPage} />
-        <Route exact path="/resources" component={renderResourcesPage} />
+        <Route exact path="login" render={renderLoginPage} />
+        <Route exact path="signup" component={SignupPage} />
+        <Route exact path="home" render={renderHomePage} />
+        <Route exact path="" component={SplashPage} />
+        <Route exact path="aboutus" component={AboutUsPage} />
+        <Route exact path="profile" component={renderProfilePage} />
+        <Route exact path="addactivity" component={AddActivityPage} />
+        <Route exact path="resources" component={renderResourcesPage} />
       </Router>
       <FooterComponent />
     </div>
